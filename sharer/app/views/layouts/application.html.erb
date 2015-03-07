@@ -8,3 +8,9 @@
   <% end %>
 </div>
 
+
+<a href=">%= login_path %<" id="twitter-login" data-method="post">Twitter Login</a>
+<br>
+<% if logged_in? %>
+  <%= current_user %>
+<% end %>

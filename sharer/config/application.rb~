@@ -22,6 +22,6 @@ module Sharer
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    config.twitter_login = Twitter::Login.new :consumer_key => 'fPgYzvchtNm1eBLv97hqiLJub', :secret => '5yuQRDhHiipJ8pf3Kw75lKU0nwp46KOb5l5jbpcnnQyBj1KPFe'
+    config.twitter_login = Twitter::Login.new :consumer_key => fPgYzvchtNm1eBLv97hqiLJub, :secret => 5yuQRDhHiipJ8pf3Kw75lKU0nwp46KOb5l5jbpcnnQyBj1KPFe
   end
 end
