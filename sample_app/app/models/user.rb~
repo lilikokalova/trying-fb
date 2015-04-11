@@ -8,9 +8,10 @@ class User < ActiveRecord::Base
 
 	#profile = facebook.get_object("me")
 	#friends = facebook.get_connections("me", "friends")
-	facebook.put_connections("me", "feed", :message => "BIBI KOKALOVA DA NAMALI CHALGATA SHTOTO ZNAM KUDE JIVEE")
+	facebook.put_connections("me", "feed", :message => "SWAAAAG")
 	#facebook.put_wall_post("hey, i'm learning koala")
 	
-  end
+  end  
+end
 
-end 
+
