@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
     user.oauth_secret = auth.credentials.secret
     user.save!
     user
-
+	
 
   end
 
@@ -30,12 +30,34 @@ class User < ActiveRecord::Base
       user.username = auth.info.nickname
       user.image_url = auth.info.image
       user.save 
+
+    end
+  end
+def self.from_omniauth(auth)
+    where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
+      user.provider = auth.provider
+      user.uid = auth.uid
+      user.name = auth.info.name
+      user.oauth_token = auth.credentials.token
+      user.oauth_secret = auth.credentials.secret
+      user.save!
     end
   end
 
+  def tweet(tweet)
+    client = Twitter::REST::Client.new do |config|
+      config.consumer_key        = Rails.application.config.twitter_key
+      config.consumer_secret     = Rails.application.config.twitter_secret
+      config.access_token        = oauth_token
+      config.access_token_secret = oauth_secret
+    end
+    
+    client.update(tweet)
+  end
 
   def twitter
       @twitter ||= Twitter::Client.new(oauth_token: oauth_token, oauth_token_secret: oauth_secret, access_token: ENV['179516515-t1DSMep9DPord6OanZcBI7Ir151LJ58Tke6S1zw8'], access_token_secret: ENV['RyaFyC1IsrzjPxdLBqPiYodDpmQ5UBb8eZBFarXdmNApV'] ) #ENV's are stored locally. 
+	twitter.update("I'm tweeting with @gem!")
   end
   
 end

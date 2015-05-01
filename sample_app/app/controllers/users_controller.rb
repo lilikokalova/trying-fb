@@ -13,4 +13,7 @@ class UsersController < ApplicationController
    @user[:access_token_secret] = request.env['omniauth.auth']['credentials']['secret']
    redirect_to show_path, notice: 'Signed in'
   end
+
+  def update
+  end
 end 
