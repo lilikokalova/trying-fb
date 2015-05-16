@@ -1,2 +1,6 @@
-<%= image_tag @user['picture']['data']['url'].to_s %>
-<%= @user['name'] %>
+<p>
+  <%= form_for :koala,url: root_path,method: :post do |f| %>
+    <%= f.text_field $message %> <br />
+    <%= f.submit "Post!" %>
+  <% end %>
+</p>

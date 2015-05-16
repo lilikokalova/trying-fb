@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'auth/facebook/callback', to: 'users#login'
   get '/auth/twitter', to: 'sessions#create'
   get '/auth/twitter/callback', to: 'users#update'
+  #post 'auth/facebook/callback', to: 'users#login'
 end
