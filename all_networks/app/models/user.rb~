@@ -1,4 +1,18 @@
 class User < ActiveRecord::Base
+  @message="Posting on my wall"
+  def self.koala(auth)
+  	
+	access_token = auth['token']
+	facebook = Koala::Facebook::API.new(access_token)
+	facebook.get_object("me?fields=name,picture")
+	
+	#facebook.put_connections("me", "feed", :message => "#{@message}")
+  end
+  
+  def post(post)
+  	facebook.put_wall_post(message)
+  end
+
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
       user.provider = auth.provider
