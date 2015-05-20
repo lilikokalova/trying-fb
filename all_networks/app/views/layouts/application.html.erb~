@@ -14,9 +14,13 @@
       <% else %>
         <%= link_to "Sign in with Twitter", "/auth/twitter", id: "sign_in" %>
       <% end %>
+	<%= link_to "Facebook Login", '/auth/facebook' %> 
+<%= link_to "Import Linkedin", "/linkedin/auth" %>
+<%= link_to "Instagram", "/instagram/index" %>
+
     </div>
     <div>
-   <!-- <%= yield %>-->
+    <%= yield %>
     </div>
   </body>
 </html>

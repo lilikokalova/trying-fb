@@ -1908,3 +1908,1276 @@ Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 17:57:57 +030
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 17:57:57 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:14:54 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.3ms)
+  [1m[35mUser Load (6.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 197ms (Views: 162.8ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:14:55 +0300
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-05-20 18:14:56 +0300
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:14:56 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:14:59 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:14:59 +0300
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:15:03 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 633ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.2ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:15:04 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 623ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.7ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:15:07 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 484ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:15:09 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:15:10 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:15:11 +0300
+
+
+Started GET "/auth/twitter/callback?oauth_token=MFIUIMN8VE1CtNauGsfwyE7y9sScwIwC&oauth_verifier=gTSdT9KF8bvYoBpJpmJd2VwCa1X6VicK" for 127.0.0.1 at 2015-05-20 18:15:11 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"MFIUIMN8VE1CtNauGsfwyE7y9sScwIwC", "oauth_verifier"=>"gTSdT9KF8bvYoBpJpmJd2VwCa1X6VicK", "provider"=>"twitter"}
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 31ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:15:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:16:14 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (3.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 147ms (Views: 115.4ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:15 +0300
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-05-20 18:16:20 +0300
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:16:20 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:22 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 550ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:26 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 563ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:26 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 483ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:27 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 530ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:27 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 547ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:16:28 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 599ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.4ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:16:29 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:16:29 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:16:30 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:16:30 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:16:30 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:16:30 +0300
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:33 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 540ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:16:35 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:16:36 +0300
+
+
+Started GET "/auth/twitter/callback?oauth_token=7S1LZ0ybjVJSgIjyVwOsDTME3Qxqo81o&oauth_verifier=SG5YpwoU5VUyNiOtZdHtqjjpB8XR0491" for 127.0.0.1 at 2015-05-20 18:16:37 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"7S1LZ0ybjVJSgIjyVwOsDTME3Qxqo81o", "oauth_verifier"=>"SG5YpwoU5VUyNiOtZdHtqjjpB8XR0491", "provider"=>"twitter"}
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (1.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 30ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:16:38 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:16:39 +0300
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-05-20 18:16:41 +0300
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:16:41 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:16:42 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:16:42 +0300
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:53 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 508ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:16:53 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 603ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:16:54 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:16:55 +0300
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:56 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 599ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:16:56 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 516ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:16:57 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 589ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=XNujS6eq9vV3040RwZgZZZvGqda5A1j5&oauth_verifier=cAZQCDZ8JLWjA9yFAy5ayU7cV7GhhiFI" for 127.0.0.1 at 2015-05-20 18:16:57 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"XNujS6eq9vV3040RwZgZZZvGqda5A1j5", "oauth_verifier"=>"cAZQCDZ8JLWjA9yFAy5ayU7cV7GhhiFI", "provider"=>"twitter"}
+  [1m[36mUser Load (2.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 11ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 145ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:17:24 +0300
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:17:27 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 508ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:17:28 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 506ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:17:31 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 506ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:17:31 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 507ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:17:32 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 557ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:38 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 557ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:40 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 474ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:40 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 517ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:41 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 553ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:41 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 470ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:42 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 538ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:18:43 +0300
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:44 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 526ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:45 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 525ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:46 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 461ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:46 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 526ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:47 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 532ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:47 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 571ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:48 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 617ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:48 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 561ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:49 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 585ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:18:50 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 686ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:23 +0300
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:19:24 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 530ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:19:26 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 532ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:19:27 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 540ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:19:28 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 562ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:19:28 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 498ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:19:29 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 514ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:19:29 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:19:30 +0300
+
+
+Started GET "/auth/twitter/callback?oauth_token=72ava40Suh9t8rKtH99D6OqMPzs3QVkf&oauth_verifier=Wm4FMAaWUfzhgpFqoey6ZCvB5N1sGHt3" for 127.0.0.1 at 2015-05-20 18:19:32 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"72ava40Suh9t8rKtH99D6OqMPzs3QVkf", "oauth_verifier"=>"Wm4FMAaWUfzhgpFqoey6ZCvB5N1sGHt3", "provider"=>"twitter"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 40ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (4.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 34ms (Views: 28.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:33 +0300
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-05-20 18:19:35 +0300
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:19:35 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:19:42 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 636ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:19:43 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 598ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:19:48 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:19:49 +0300
+
+
+Started GET "/auth/twitter/callback?oauth_token=v2Lu9YIISOTBFhvDNRsjIMrgvNQorzDN&oauth_verifier=p6ifghuaBrpH2fzJbnlH95BfjUj2rVmr" for 127.0.0.1 at 2015-05-20 18:19:50 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"v2Lu9YIISOTBFhvDNRsjIMrgvNQorzDN", "oauth_verifier"=>"p6ifghuaBrpH2fzJbnlH95BfjUj2rVmr", "provider"=>"twitter"}
+  [1m[35mUser Load (2.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:19:52 +0300
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-05-20 18:19:54 +0300
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:19:54 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:22:04 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 580ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/linkedin/auth" for 127.0.0.1 at 2015-05-20 18:22:04 +0300
+Processing by LinkedinController#auth as HTML
+Completed 500 Internal Server Error in 583ms
+
+OAuth::Problem (Scope NOT_AUTHORIZED : r_contactinfo, Scope NOT_AUTHORIZED : r_fullprofile, Scope NOT_AUTHORIZED : r_network):
+  app/controllers/linkedin_controller.rb:15:in `auth'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:22:08 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 471ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:22:10 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:22:11 +0300
+
+
+Started GET "/auth/twitter/callback?oauth_token=ksE6VOVKET5s10pqGlKWzOsaIH7tpvj2&oauth_verifier=rcmX2o04SF8Uou3l0b2AXoEY9yKtus1r" for 127.0.0.1 at 2015-05-20 18:22:12 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"ksE6VOVKET5s10pqGlKWzOsaIH7tpvj2", "oauth_verifier"=>"rcmX2o04SF8Uou3l0b2AXoEY9yKtus1r", "provider"=>"twitter"}
+  [1m[35mUser Load (1.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:26:56 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 198ms (Views: 168.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:26:57 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:27:44 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:27:45 +0300
+
+
+Started GET "/auth/twitter/callback?oauth_token=woppwBInwhV4DG9B1N03pmXKWUsPV7qh&oauth_verifier=GDtCe6e2GBt0jWf2pdghXSuNRkacJgDt" for 127.0.0.1 at 2015-05-20 18:27:47 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"woppwBInwhV4DG9B1N03pmXKWUsPV7qh", "oauth_verifier"=>"GDtCe6e2GBt0jWf2pdghXSuNRkacJgDt", "provider"=>"twitter"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 40ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:27:49 +0300
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (6.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 40ms (Views: 32.5ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:27:52 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (4.7ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 543ms (Views: 34.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:27:55 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 544ms (Views: 30.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:29:25 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#show as HTML
+  [1m[35mUser Load (3.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/show.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 150ms (Views: 118.6ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:26 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:26 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:26 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:26 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:26 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:26 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:26 +0300
+
+
+Started GET "/tweets/new" for 127.0.0.1 at 2015-05-20 18:29:32 +0300
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (12.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2015-05-20 18:29:35 +0300
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P2NsNjAFaV8WACTbelUoUe9dG1XjF4AJYTZnFXcMiBI=", "tweet"=>{"message"=>"aaaaaaaaaaaa"}, "commit"=>"Send Tweet"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tweets/create.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 839ms (Views: 30.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:36 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:36 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:36 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:36 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:36 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:36 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:36 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:29:39 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:41 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:41 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:41 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:41 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:41 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:29:41 +0300
+
+
+Started GET "/signout" for 127.0.0.1 at 2015-05-20 18:29:43 +0300
+Processing by SessionsController#destroy as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:29:43 +0300
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/instagram/index" for 127.0.0.1 at 2015-05-20 18:29:44 +0300
+Processing by InstagramController#index as HTML
+  Rendered instagram/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 543ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:29:59 +0300
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2015-05-20 18:30:00 +0300
+
+
+Started GET "/auth/twitter/callback?oauth_token=wKoeBMvk5cfM8QmsRoCD7SSyft8GTBCJ&oauth_verifier=IMYKO0Mi08s1CdZ5XXU7K5SSrk6aE7or" for 127.0.0.1 at 2015-05-20 18:30:01 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"wKoeBMvk5cfM8QmsRoCD7SSyft8GTBCJ", "oauth_verifier"=>"IMYKO0Mi08s1CdZ5XXU7K5SSrk6aE7or", "provider"=>"twitter"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '179516515' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 11ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+Processing by HomeController#show as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:30:03 +0300
+
+
+Started GET "/tweets/new" for 127.0.0.1 at 2015-05-20 18:30:07 +0300
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:12 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:31:13 +0300
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2015-05-20 18:31:14 +0300
+
+
+Started GET "/auth/facebook/callback?code=AQAsn9XdHLGKnrmGus9HORtvUFvqbGzLYXScFfkOfslclE4i_YmIFbBH0dizaGR8qJBT52qHbWp4cH88hYbQ34FyZ8noc1vjUq-rGJtKMxtFhXpCB5qCU5jnPXadB88krivDfGYv0N3GMYfsJSJhUiQHUWfns-hLylCyAjrAcrAnL0w6avHdtEkkl-WSF7Ss98liSDpedVMU8VB7-tQ4k0nkNeGczj_tX9ikntA6G-k6Ow2Unx1v61ansNpu-VZS1rYq3NhTGRS7PX_R3e2bjUipa0Dil80hw3dU2MY8I5GNcxgkcCe98kf-5t49WYncp9KpsBGDYH6o8Jkb3Vq410mq&state=dd1b7f592ea7dd217e8b53eb0daf039e58787fcfbea7e2e7" for 127.0.0.1 at 2015-05-20 18:31:14 +0300
+Processing by UsersController#login as HTML
+  Parameters: {"code"=>"AQAsn9XdHLGKnrmGus9HORtvUFvqbGzLYXScFfkOfslclE4i_YmIFbBH0dizaGR8qJBT52qHbWp4cH88hYbQ34FyZ8noc1vjUq-rGJtKMxtFhXpCB5qCU5jnPXadB88krivDfGYv0N3GMYfsJSJhUiQHUWfns-hLylCyAjrAcrAnL0w6avHdtEkkl-WSF7Ss98liSDpedVMU8VB7-tQ4k0nkNeGczj_tX9ikntA6G-k6Ow2Unx1v61ansNpu-VZS1rYq3NhTGRS7PX_R3e2bjUipa0Dil80hw3dU2MY8I5GNcxgkcCe98kf-5t49WYncp9KpsBGDYH6o8Jkb3Vq410mq", "state"=>"dd1b7f592ea7dd217e8b53eb0daf039e58787fcfbea7e2e7"}
+  Rendered users/login.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1130ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-20 18:31:16 +0300
+
+
+Started POST "/auth/facebook/callback" for 127.0.0.1 at 2015-05-20 18:31:23 +0300
+
+OmniAuth::Strategies::OAuth2::CallbackError (OmniAuth::Strategies::OAuth2::CallbackError):
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:71:in `callback_phase'
+  omniauth-facebook (1.6.0) lib/omniauth/strategies/facebook.rb:71:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__618340567782332680__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/user/.rvm/gems/ruby-2.2.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
